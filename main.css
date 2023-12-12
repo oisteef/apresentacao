@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+main {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(104, 70, 7);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
