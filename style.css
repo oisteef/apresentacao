@@ -22,3 +22,11 @@ p{
     text-align: justify;
     text-indent: 30px;
 }
+a{
+    color: rgb(16, 66, 233);
+}
+
+
+a:visited {
+    color: rgb(112, 112, 22);
+}
