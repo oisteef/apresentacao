@@ -20,6 +20,10 @@ body main {
 
 }
 
+.fundo {
+    background-image: url(patas.png);
+}
+
 .imagem {
         text-align: center;
         
