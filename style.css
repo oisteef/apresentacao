@@ -1,22 +1,42 @@
 @charset "UTF-8";
 
+
 body{
+
     background-color: rgb(209, 179, 155);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 1;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
+
 main {
-    background-color: aliceblue;
+    
+    background-color: rgb(77, 75, 70);
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(104, 70, 7);
     width: 600px;
     padding: 10px;
     margin: auto;
 }
+
+.imagem {
+        text-align: center;
+        
+}
+
+.imagem img {
+    max-width: 100%;
+    border-radius: 49%;
+}
+
 h1{
     color: rgb(146, 104, 56);
     text-align: center;
     text-shadow: 1px 1px 2px rgb(107, 61, 9);
+    
 }
 p{
     text-align: justify;
@@ -29,4 +49,8 @@ a{
 
 a:visited {
     color: rgb(112, 112, 22);
+}
+
+footer {
+    text-align: center;
 }
