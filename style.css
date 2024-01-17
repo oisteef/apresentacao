@@ -21,7 +21,7 @@ body main {
 }
 
 .fundo {
-    background-image: url(patas.png);
+    background-image: url("patas.png");
 }
 
 .imagem {
