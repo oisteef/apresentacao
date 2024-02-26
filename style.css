@@ -1,66 +1,88 @@
 @charset "UTF-8";
 
+:root {
+    --cor-main: #392a16;
+    --cor-body: #231c07;
+    --cor-sombra: #b86f52;
+    --cor-link: #f78764;
+}
+
 
 body{
-    background-color:#46220f;
+    background-color: var(--cor-body);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 95vh;
-    text-align: center;
+    height: 50vh;
 }
 
-body main {
-    background-color:#aa7444;
-    box-shadow: 10px 10px 10px #3d524c94;
-    width: 600px;
-    padding: 60px;
 
+main {
+    background-color: var(--cor-main);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 7px var(--cor-sombra);
+    width: 50%;
+    padding: 40px;
+    margin: auto;
+    color: beige;
 }
+
+.fundo {
+    background-color: var(--cor-body);
+}
+
 
 .imagem {
-        text-align: center;
+    text-align: center;
+        
+}
+
+.imagem#img01,
+.imagem#img02 {
+    text-align: center;
+    background-image: url(imagem/patas.png);
+    border-radius: 50%;
+
         
 }
 
 .imagem img {
-    max-width: 100%;
-    border-radius: 49%;
-    padding: 30px;
-}
-
-.imagem img {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 50%;
+    padding: 40px;
     transition: transform (0.3) ease-in-out;
 }
 
 .imagem img:hover {
     transform: scale(1.1);
+    filter: brightness(50%);
 }
 
 h1{
-    color:  #075f489a;
+    color:  var(--cor-link);
     text-align: center;
-    text-shadow: 1px 1px 2px #abe2d285;
-    
+    text-shadow: 1px 3px 3px #abe2d285
 }
+
+
 p{
     text-align: justify;
-    text-indent: 30px;
-    
+    text-indent: 50px;
+    padding: 10px;
+
 }
 a{
-    color: #075f489a;
+    color: var(--cor-link);
 }
 
 
 a:visited {
-    color: #065c451f;
+    color: #634133;
 }
 
 footer {
     text-align: center;
 }
+
