@@ -65,7 +65,7 @@ main {
 h1 {
     color: var(--cor-link);
     text-align: center;
-    text-shadow: 1px 3px 3px #abe2d285;
+    text-shadow: 1px 3px 5px #abe2d285;
 }
 
 
@@ -90,6 +90,16 @@ footer {
     text-indent: 1px;
 }
 
+@media screen and (min-width: 1024px) {
+    main {
+        font-size: 20px;
+    }
+
+    main{
+        width: 90vw;
+    }
+    
+
 @media screen and (min-width: 1728px) {
 
     main {
@@ -106,7 +116,7 @@ footer {
     p {
         text-align: justify;
         text-indent: 50px;
-        padding: 30px;
+        padding: 20px;
         font-size: 30px;
     
     }
@@ -116,4 +126,5 @@ footer {
         font-size: 20px;
     }
 
+}
 }
