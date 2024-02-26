@@ -22,10 +22,11 @@ body{
 main {
     background-color: var(--cor-main);
     border-radius: 10px;
-    box-shadow: 10px 10px 10px 7px var(--cor-sombra);
-    width: 50%;
-    padding: 40px;
+    box-shadow: 5px 5px 10px 5px var(--cor-sombra);
+    width: 75vw;
+    padding: 20px;
     margin: auto;
+    margin-top: 20px;
     color: beige;
 }
 
@@ -51,8 +52,9 @@ main {
 .imagem img {
     max-width: 80%;
     border-radius: 50%;
-    padding: 40px;
+    padding: 25px;
     transition: transform (0.3) ease-in-out;
+    text-align: center;
 }
 
 .imagem img:hover {
@@ -85,4 +87,5 @@ a:visited {
 footer {
     text-align: center;
 }
+
 
